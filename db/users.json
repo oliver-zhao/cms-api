@@ -10,5 +10,11 @@
         "lastName": "Liu",
         "email": "matt.liu@team.telstra.com",
         "password": ""
+    },
+    {
+        "firstName": "John",
+        "lastName": "Wong",
+        "email": "john.wong.4@team.telstra.com",
+        "password": ""
     }
 ]
