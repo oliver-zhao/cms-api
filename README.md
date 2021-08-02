@@ -46,3 +46,7 @@ Response body:
     "message": "Delete user successfully."
 }
 ```
+## 2. Category API
+## 3. Article API
+## 4. Comment API 
+## 5. Authentication (JWT)
