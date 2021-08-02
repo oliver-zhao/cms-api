@@ -47,6 +47,22 @@ Response body:
 }
 ```
 ## 2. Category API
+```http
+GET /api/v1/categories
+```
+Response code: 200
+Responses body:
+```javascript
+[{
+  "name":string,
+  "sort":number
+},
+{
+  "name":string,
+  "sort":number
+}]
+```
+
 ## 3. Article API
 ## 4. Comment API 
 ## 5. Authentication (JWT)
