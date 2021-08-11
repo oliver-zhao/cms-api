@@ -16,5 +16,41 @@
         "lastName": "Wong",
         "email": "john.wong.4@team.telstra.com",
         "password": ""
+    },
+    {
+        "firstName": "Tian",
+        "lastName": "Dom",
+        "email": "dom.tian@team.telstra.com",
+        "password": "123456"
+    },
+    {
+        "firstName": "Gao",
+        "lastName": "Tom",
+        "email": "tom.gao@team.telstra.com",
+        "password": "8474747"
+    },
+    {
+        "firstName": "Tom1",
+        "lastName": "Gao1",
+        "email": "tom.gao@team.telstra.com",
+        "password": "8474747"
+    },
+    {
+        "firstName": "Tom2",
+        "lastName": "Gao2",
+        "email": "tom.gao@team.telstra.com",
+        "password": "8474747"
+    },
+    {
+        "firstName": "Tom2",
+        "lastName": "Gao2",
+        "email": "tom.gao@team.telstra.com",
+        "password": {}
+    },
+    {
+        "firstName": "Tom2",
+        "lastName": "Gao2",
+        "email": "tom.gao@team.telstra.com",
+        "password": "$2b$10$w/cEeVGDelATumZn.z/ECeZXHTjqJ6zD0Jq4tX1Otp05ux9Aaqlhe"
     }
 ]

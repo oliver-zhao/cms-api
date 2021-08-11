@@ -1,14 +1,12 @@
-import * as bcrypt from 'bcrypt';
+const  bcrypt  = require('bcrypt');
 
-export const encrypt = {
-
-    cryptPassword: (password) =>
+module.exports = function cryptPassword(password) {
         bcrypt.genSalt(10)
             .then((salt => bcrypt.hash(password, salt)))
-            .then(hash => hash),
+            .then(hash => hash);
+}
 
-    comparePassword: (password, hashPassword) =>
+module.exports = function comparePassword(password, hashPassword) {
         bcrypt.compare(password, hashPassword)
             .then(resp => resp)
-
 }
