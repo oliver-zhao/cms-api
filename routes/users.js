@@ -77,8 +77,19 @@ router.delete('/:email', function (req, res, next) {
   //2. search user.email if in the user list (* how to use array in js)
   //3. remove the element of this email in user list (* how to remove element in array)
   //4. response success or fail
+  let userFile = fs.readFileSync('db/users.json');
+  let users = JSON.parse(userFile);
   const email = req.params.email;
-  console.log(email);
+  users.findByIdAndDelete(email)
+  /*  .then(result => {
+      res.json({ redirect: '/:email'})
+    })
+    .catch(err => {
+      console.log(err);
+    })
+*/
+  //const email = req.params.email;
+  //console.log(email); 
   res.status(400).send({ message: "Delete user failed" });
 });
 
